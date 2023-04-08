@@ -4,7 +4,6 @@
 *.npz
 data
 logs
-model
 npz
 suite-sparse
 generate-dataset
