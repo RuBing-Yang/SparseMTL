@@ -1,0 +1,10 @@
+*.mtx
+*.tar.gz
+*.zip
+*.npz
+data
+logs
+model
+npz
+suite-sparse
+generate-dataset
