@@ -102,8 +102,8 @@ if __name__ == '__main__':
     images_dim1 = np.zeros((num, shape, shape))
     features = np.zeros((num, 14))
         
-    spmv_labels = read_labels(INLIST, '/home/rubing/SparseMTL/data/operator/spmv_out.txt')
-    sddmm_labels = read_labels(INLIST, '/home/rubing/SparseMTL/data/operator/sddmm_out.txt')
+    spmv_labels = read_labels(INLIST, './SparseMTL/data/operator/spmv_out.txt')
+    sddmm_labels = read_labels(INLIST, './SparseMTL/data/operator/sddmm_out.txt')
     if len(spmv_labels) != len(sddmm_labels):
         print('spmv_labels', len(spmv_labels), 'sddmm_labels', len(sddmm_labels))
     labels = np.matrix([spmv_labels, sddmm_labels])

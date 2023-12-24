@@ -7,3 +7,6 @@ logs
 npz
 suite-sparse
 generate-dataset
+__pycache__
+.log
+output

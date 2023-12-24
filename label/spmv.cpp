@@ -1,7 +1,7 @@
 // On Linux and MacOS, you can compile and run this program like so:
 //   g++ -std=c++11 -O3 -DNDEBUG -DTACO -I ../include -L../build/lib spmv.cpp -o spmv -ltaco
 //   LD_LIBRARY_PATH=../build/lib ./spmv
-//   gdb --args /home/rubing/taco/tools/
+//   gdb --args ./taco/tools/
 //   file spmv
 //   run file spmv
 #include <random>
